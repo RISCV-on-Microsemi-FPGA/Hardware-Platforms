@@ -1,0 +1,555 @@
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+FlashPro
+Version: 12.200.10.15
+Release: PolarFire v2.1
+
+Software Version: 12.200.10.15
+Warning: Unable to find file:
+         'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2GL025-Creative-Board-master\Programmin\
+         g_The_Target_Device\IGL2_RISCV_Systick_Blinky\PROC_SUBSYSTEM.stp'.
+Warning: Using local backup copy:
+         'C:\Users\nitin.deshpande\Documents\GitHub\New-Mi-V\Igloo2-Creative-Board\Programming_\
+         The_Target_Device\IGL2_RISCV_Systick_Blinky\projectData\PROC_SUBSYSTEM.stp'.
+STAPL file
+'C:\Users\nitin.deshpande\Documents\GitHub\New-Mi-V\Igloo2-Creative-Board\Programming_The_Targe\
+t_Device\IGL2_RISCV_Systick_Blinky\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9236;  ALG_VERSION : 2
+Driver : 3.0.0 build 1
+programmer '66773' : FlashPro4
+Warning: The programmer with id 'E200108CTE' in the project file cannot be detected and
+         connected.
+Opened
+'C:\Users\nitin.deshpande\Documents\GitHub\New-Mi-V\Igloo2-Creative-Board\Programming_The_Targe\
+t_Device\IGL2_RISCV_Systick_Blinky\IGL2_RISCV_Systick_Blinky.pro'
+Rescanning for Programmers...
+programmer '66773' : FlashPro4
+Rescanning for Programmers DONE.
+Warning: The programming file
+         'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Programming_The_Targe\
+         t_Device\PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' is for 'M2S025' devices. Your current
+         device 'M2GL025' doesn't match the programming file.
+         Your current device will be changed to 'M2S025' to match your programming file. Do you
+         want to proceed? [YES]
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Programming_The_Target_Device\\
+PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9EBE;  ALG_VERSION : 2
+programmer '66773' : Scan Chain...
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM
+programmer '66773' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00796744
+programmer '66773' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2GL025' : TEMPGRADE: ROOM
+programmer '66773' : device 'M2GL025' : EXPORT VPPRANGE[3] = 2
+programmer '66773' : device 'M2GL025' : VPPRANGE: HIGH
+programmer '66773' : device 'M2GL025' : EXPORT TEMP[8] = 67
+programmer '66773' : device 'M2GL025' : EXPORT VPP[8] = 79
+programmer '66773' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+ffd93450db104bd1eab924ab3cc4628553ea95f64e15f79537c2851bb0243715
+programmer '66773' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+956d94953e23e130552c430289dbcc215f8932231a413e4a66e54b0367fc702e
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : EXPORT DSN[128] = 09c4aa010000cd5a00c300060007002a
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : Finished: Fri Apr 06 17:16:54 2018 (Elapsed time
+00:00:44)
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 06 17:16:54 2018 (Elapsed time 00:00:44)
+
+                        o - o - o - o - o - o
+
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Programming_The_Target_Device\\
+PROC_SUBSYSTEM_TickTackToe\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 04AA;  ALG_VERSION : 2
+programmer '66773' : Scan Chain...
+Error: programmer '66773' : Could not claim interface of USB device. Another process may have
+       claimed it already.
+Error: programmer '66773' : Scan Chain FAILED.
+Error: Failed to run Action.
+programmer '66773' : Scan Chain...
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM
+programmer '66773' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00796644
+programmer '66773' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2GL025' : TEMPGRADE: ROOM
+programmer '66773' : device 'M2GL025' : EXPORT VPPRANGE[3] = 2
+programmer '66773' : device 'M2GL025' : VPPRANGE: HIGH
+programmer '66773' : device 'M2GL025' : EXPORT TEMP[8] = 66
+programmer '66773' : device 'M2GL025' : EXPORT VPP[8] = 79
+programmer '66773' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+dee70e93a8081ea2bace1d5a9676f26cbaa90f2a3a619527a3d2c1e1bd6d6038
+programmer '66773' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+cb11103a1c52b5160d3884b017214e0e2bee1a707adbc313dcad04442fea53a2
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : EXPORT DSN[128] = 09c4aa010000cd5a00c300060007002a
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : Finished: Fri Apr 06 17:20:10 2018 (Elapsed time
+00:00:54)
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 06 17:20:10 2018 (Elapsed time 00:00:54)
+
+                        o - o - o - o - o - o
+
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_Cor\
+eRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : C5FF;  ALG_VERSION : 2
+programmer '66773' : Scan Chain...
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM
+programmer '66773' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00796644
+programmer '66773' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+ba715026b47577a2a967e83aa87c1699695a6ec3cdd0bcdd666d1b36a32c247f
+programmer '66773' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+cb11103a1c52b5160d3884b017214e0e2bee1a707adbc313dcad04442fea53a2
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : EXPORT DSN[128] = 09c4aa010000cd5a00c300060007002a
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : Finished: Fri Apr 06 18:50:05 2018 (Elapsed time
+00:00:54)
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 06 18:50:05 2018 (Elapsed time 00:00:54)
+
+                        o - o - o - o - o - o
+
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\CoreRIS\
+CV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : D492;  ALG_VERSION : 2
+programmer '66773' : Scan Chain...
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM
+programmer '66773' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00796644
+programmer '66773' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+7441e89d1aad036d2fb610253e6cee1e94b5e67b1587ad4921a2c8801b5a626d
+programmer '66773' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+d20c9d8d1dfcc744eca839c47cea2bbe502b2137978f8698e2259aaffd3b21fd
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : EXPORT DSN[128] = 09c4aa010000cd5a00c300060007002a
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : Finished: Fri Apr 06 18:53:08 2018 (Elapsed time
+00:00:44)
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 06 18:53:08 2018 (Elapsed time 00:00:44)
+
+                        o - o - o - o - o - o
+
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\CoreRIS\
+CV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : D492;  ALG_VERSION : 2
+programmer '66773' : Scan Chain...
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM
+programmer '66773' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00796544
+programmer '66773' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+7441e89d1aad036d2fb610253e6cee1e94b5e67b1587ad4921a2c8801b5a626d
+programmer '66773' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+d20c9d8d1dfcc744eca839c47cea2bbe502b2137978f8698e2259aaffd3b21fd
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : EXPORT DSN[128] = 09c4aa010000cd5a00c300060007002a
+programmer '66773' : device 'M2GL025' :
+===================================================================================
+programmer '66773' : device 'M2GL025' : Finished: Sat Apr 07 15:08:32 2018 (Elapsed time
+00:00:44)
+programmer '66773' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Sat Apr 07 15:08:32 2018 (Elapsed time 00:00:44)
+
+                        o - o - o - o - o - o
+
+Warning: Project 'IGL2_RISCV_Systick_Blinky' has been modified. Do you want to save it? [NO]
+Project closed.
+Software Version: 12.200.10.15
+Opened
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_Cor\
+eRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\CoreRIS\
+CV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : D492;  ALG_VERSION : 2
+Project saved.
+Project closed.
+Software Version: 12.200.10.15
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\CoreRIS\
+CV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : D492;  ALG_VERSION : 2
+Opened
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_Cor\
+eRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+Project closed.
+Software Version: 12.200.10.15
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\CoreRIS\
+CV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : D492;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2S025-Creative-Board\Modify_The_FPGA_Design\SF2_Cor\
+eRISCV_AXI4_TickTackToe\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+Warning: The programming file
+         'C:\Users\nitin.deshpande\Desktop\tempdown\M2GL025-Creative-Board\Modify_The_FPGA_Desi\
+         gn\IGL2_MIV_RV32IMA_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' is
+         for 'M2GL025' devices. Your current device 'M2S025' doesn't match the programming file.
+         Your current device will be changed to 'M2GL025' to match your programming file. Do you
+         want to proceed? [YES]
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\tempdown\M2GL025-Creative-Board\Modify_The_FPGA_Design\IGL2_M\
+IV_RV32IMA_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : F06F;  ALG_VERSION : 2
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2S025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2S025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6844
+programmer 'E200108CTE' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2S025' : EXPORT Fabric component digest[256] =
+44720ba04e1bd23064d30a6548af8cf3446fdd00955515ba2d317583c99dcaec
+programmer 'E200108CTE' : device 'M2S025' : EXPORT eNVM component digest[256] =
+f12f03bf16046689f995d83b0e8de8b428a4cfe5d56ceb26134d1881819b1089
+programmer 'E200108CTE' : device 'M2S025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2S025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : Finished: Sun Apr 08 16:08:58 2018 (Elapsed time
+00:00:41)
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:08:58 2018 (Elapsed time 00:00:41)
+
+                        o - o - o - o - o - o
+
+Warning: Project 'PROC_SUBSYSTEM' has been modified. Do you want to save it? [NO]
+Project closed.
+Software Version: 12.200.10.15
+Warning: Unable to find file:
+         'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2GL025-Creative-Board-master\Programmin\
+         g_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2GL025_1.stp'.
+Warning: Using local backup copy:
+         'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target\
+         _Device\PROC_SUBSYSTEM_BaseDesign\projectData\M2GL025_1.stp'.
+Error: STAPL file
+       'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_D\
+       evice\PROC_SUBSYSTEM_BaseDesign\projectData\M2GL025_1.stp' does not exist.
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+Rescanning for Programmers...
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Rescanning for Programmers DONE.
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 5DA7;  ALG_VERSION : 2
+Project saved.
+Project closed.
+Software Version: 12.200.10.15
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 5DA7;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2GL025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2GL025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6744
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+f5915a4b4db9e2b96e41ae9f322efdb009517bf0a62abd23ad9ca5a2fc06ed9c
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+f12f03bf16046689f995d83b0e8de8b428a4cfe5d56ceb26134d1881819b1089
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : Finished: Sun Apr 08 16:30:57 2018 (Elapsed time
+00:00:42)
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:30:57 2018 (Elapsed time 00:00:42)
+
+                        o - o - o - o - o - o
+
+Project closed.
+Software Version: 12.200.10.15
+Warning: Unable to find file: 'C:\Users\hbreslin\OneDrive - Microsemi Corporation\Ciaran
+         stuff\IGL2_MIV_RV32IMA_BaseDesign\PROC_SUBSYSTEMMIV_BaseDesign\M2GL025_1.stp'.
+Warning: Using local backup copy:
+         'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target\
+         _Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\M2GL025_1.stp'.
+Error: STAPL file
+       'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_D\
+       evice\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\M2GL025_1.stp' does not exist.
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Warning: The programmer with id 'S201Z6SSZF' in the project file cannot be detected and
+         connected.
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\PROC_SUBSYSTEMMIV_BaseDesign.pro'
+Project saved.
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+Rescanning for Programmers...
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Rescanning for Programmers DONE.
+Project saved.
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : F06F;  ALG_VERSION : 2
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+Project saved.
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+Rescanning for Programmers...
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Rescanning for Programmers DONE.
+Project saved.
+Error: No Microsemi device has been selected to program. Please select at least one device to
+       program.
+Error: Failed to run Action.
+Project closed.
+Software Version: 12.200.10.15
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 5DA7;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 5DA7;  ALG_VERSION : 2
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2GL025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2GL025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6744
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+f5915a4b4db9e2b96e41ae9f322efdb009517bf0a62abd23ad9ca5a2fc06ed9c
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+f12f03bf16046689f995d83b0e8de8b428a4cfe5d56ceb26134d1881819b1089
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : Finished: Sun Apr 08 16:39:57 2018 (Elapsed time
+00:00:42)
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:39:57 2018 (Elapsed time 00:00:42)
+
+                        o - o - o - o - o - o
+
+Warning: Project 'PROC_SUBSYSTEM_BaseDesign' has been modified. Do you want to save it? [NO]
+Project closed.
+Software Version: 12.200.10.15
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 5DA7;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\PROC_SUBSYSTEMMIV_BaseDesign.pro'
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2GL025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2GL025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6744
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+f5915a4b4db9e2b96e41ae9f322efdb009517bf0a62abd23ad9ca5a2fc06ed9c
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+f12f03bf16046689f995d83b0e8de8b428a4cfe5d56ceb26134d1881819b1089
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : Finished: Sun Apr 08 16:41:47 2018 (Elapsed time
+00:00:42)
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:41:47 2018 (Elapsed time 00:00:42)
+
+                        o - o - o - o - o - o
+
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : F06F;  ALG_VERSION : 2
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2GL025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2GL025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6844
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+44720ba04e1bd23064d30a6548af8cf3446fdd00955515ba2d317583c99dcaec
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+f12f03bf16046689f995d83b0e8de8b428a4cfe5d56ceb26134d1881819b1089
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : Finished: Sun Apr 08 16:42:46 2018 (Elapsed time
+00:00:42)
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:42:46 2018 (Elapsed time 00:00:42)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.
+Software Version: 12.200.10.15
+Warning: Unable to find file:
+         'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2GL025-Creative-Board-master\Programmin\
+         g_The_Target_Device\PROC_SUBSYSTEM_TickTackToe\M2GL025_1.stp'.
+Warning: Using local backup copy:
+         'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target\
+         _Device\PROC_SUBSYSTEM_TickTackToe\projectData\M2GL025_1.stp'.
+Error: STAPL file
+       'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_D\
+       evice\PROC_SUBSYSTEM_TickTackToe\projectData\M2GL025_1.stp' does not exist.
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_TickTackToe\PROC_SUBSYSTEM_TickTackToe.pro'
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\RISC-V-Creative-board\Programming_The_Target_Device\P\
+ROC_SUBSYSTEM_TickTackToe\projectData\PROC_SUBSYSTEM.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : AF60;  ALG_VERSION : 2
+Project saved.
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2GL025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2GL025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 007c6744
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT Fabric component digest[256] =
+dc44cb67ce9fea3511ee72e6b9495a66fa480bd6bb68c7b20948cf48627f41e9
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT eNVM component digest[256] =
+5ba47839c38de0f339850af077f7b562211ece5394c3c37007d92011b15d8825
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : EXPORT DSN[128] = 334bd6b5cda9b0a977f29486f03a6f6b
+programmer 'E200108CTE' : device 'M2GL025' :
+===================================================================================
+programmer 'E200108CTE' : device 'M2GL025' : Finished: Sun Apr 08 16:48:08 2018 (Elapsed time
+00:00:52)
+programmer 'E200108CTE' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Sun Apr 08 16:48:08 2018 (Elapsed time 00:00:52)
+
+                        o - o - o - o - o - o
+
+Project closed.
