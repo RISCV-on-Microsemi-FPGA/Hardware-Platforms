@@ -1,0 +1,117 @@
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+Error: Cannot initialize debug engine: Unable to read device chain into the Debugging session.
+       Ensure that your FlashPro project is loaded and that your device programmer is connected.
+FlashPro
+Version: 12.200.0.20
+Release: PolarFire v2.0
+
+Software Version: 12.200.0.20
+STAPL file
+'C:\Users\nitin.deshpande\Desktop\newrepo\SmartFusion2-Advanced-Dev-Kit\Programming_The_Target_\
+Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\PROC_SUBSYSTEM.stp' has been loaded
+successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 4554;  ALG_VERSION : 2
+Driver : 3.0.0 build 1
+programmer '66773' : FlashPro4
+Embedded FlashPro5 programmer detected.
+programmer 'E200OROFA' : FlashPro5
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened
+'C:\Users\nitin.deshpande\Documents\GitHub\ForKevin\SmartFusion2-Advanced-Dev-Kit\Programming_T\
+he_Target_Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+Rescanning for Programmers...
+programmer '66773' : FlashPro4
+Embedded FlashPro5 programmer detected.
+programmer 'E200OROFA' : FlashPro5
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer '66773' : FlashPro4
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Embedded FlashPro5 programmer detected.
+programmer 'E200OROFA' : FlashPro5
+Rescanning for Programmers DONE.
+programmer 'E200OROFA' : Scan Chain...
+Warning: programmer 'E200OROFA' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+Error: programmer 'E200OROFA' : Signal Integrity Failure
+       Integrity Check Pattern Not Found.
+       Integrity Check Pattern :
+       550FAAF000FF0000FFFF
+       IrScan Error.
+       TDO stuck at 0
+       Chain Analysis Failed.
+Error: programmer 'E200OROFA' : Data Bit length : 8272
+Error: programmer 'E200OROFA' : Compare Data  :
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       00000000000000000000000000000000000000000000
+Error: programmer 'E200OROFA' : Scan Chain FAILED.
+Error: Failed to run Action.
+Rescanning for Programmers...
+programmer '66773' : FlashPro4
+Embedded FlashPro5 programmer detected.
+programmer 'E200OROFA' : FlashPro5
+Rescanning for Programmers DONE.
+programmer '66773' : Scan Chain...
+Warning: programmer '66773' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '66773' : Check Chain...
+programmer '66773' : Scan and Check Chain PASSED.
+programmer 'E200OROFA' : Programmer is disabled and skipped.
+programmer '66773' : device 'M2S050' : Executing action PROGRAM
+programmer '66773' : device 'M2S050' : Family: SmartFusion2
+programmer '66773' : device 'M2S050' : Product:      M2S150
+programmer '66773' : device 'M2S050' : EXPORT ISC_ENABLE_RESULT[32] = 00796544
+programmer '66773' : device 'M2S050' : EXPORT CRCERR[1] = 0
+programmer '66773' : device 'M2S050' : EXPORT EDCERR[1] = 0
+programmer '66773' : device 'M2S050' : Programming FPGA Array and eNVM...
+programmer '66773' : device 'M2S050' : EXPORT Fabric component digest[256] =
+7492899529842975f4989a6037fd78581282877da365674287e3b7f1d210f1a4
+programmer '66773' : device 'M2S050' : EXPORT eNVM_0 component digest[256] =
+de1ef6dad45250c932e9402116910593bc9d0065e5c2f6205755aafdea50a722
+programmer '66773' : device 'M2S050' :
+===================================================================================
+programmer '66773' : device 'M2S050' : EXPORT DSN[128] = 852012706f80eae785c8d34565b0ba0e
+programmer '66773' : device 'M2S050' :
+===================================================================================
+programmer '66773' : device 'M2S050' : Finished: Tue Apr 17 09:13:08 2018 (Elapsed time
+00:02:25)
+programmer '66773' : device 'M2S050' : Executing action PROGRAM PASSED.
+programmer '66773' : Chain programming PASSED.
+Chain Programming Finished: Tue Apr 17 09:13:08 2018 (Elapsed time 00:02:25)
+
+                        o - o - o - o - o - o
+
+Warning: Project 'PROC_SUBSYSTEM_BaseDesign' has been modified. Do you want to save it? [YES]
+Project saved.
+Project closed.
