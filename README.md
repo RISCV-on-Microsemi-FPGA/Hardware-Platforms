@@ -32,20 +32,10 @@ This is a Future designed IGLOO2 RISC-V Creative Development Board for IGLOO2 FP
 - Part used: M2GLO25
 - Timing seed included, more information on the design's page.
 
---------------------------------------------
-### [FUTUREM2SF_EVB](https://github.com/MiV-Libero-Designs/FUTUREM2SF_EVB)
-This is a Future designed SmartFusion2 Creative Development Board for SmartFusion 2 SoC FPGA - FUTUREM2SF_EVB. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/144031). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/futurem2sf.PNG" width="720" height="380" /></p>
-
-- The frequency of the design is 50 MHz
-- Latest cores have been implemented
-- Part used: M2S025
-- Timing seed included, more information on the design's page.
-
 ----------------------------------------------
 ### [M2S150TS_ADV_DEV_KIT](https://github.com/MiV-Libero-Designs/M2S150TS_ADV_DEV_KIT)
 This board is a SmartFusion2 Advanced Development Kit - SoC FPGA 150K LE - M2S150TS_ADV_DEV_KIT. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/143709). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/m2s150ts.jpg" width="720" height="380" /></p>
+<p align="center"><img src="board_images/m2s150ts.jpg" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
@@ -57,7 +47,7 @@ This board is a SmartFusion2 Advanced Development Kit - SoC FPGA 150K LE - M2S15
 ----------------------------------------------
 ### [MPF300_SPLASH_KIT_ES](https://github.com/MiV-Libero-Designs/MPF300_SPLASH_KIT_ES)
 This is Microsemi's PolarFire Splash Kit board for evaluation and development. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/144001). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/mpf300splash.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/mpf300splash.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
@@ -68,7 +58,7 @@ This is Microsemi's PolarFire Splash Kit board for evaluation and development. I
 ----------------------------------------------
 ### [MPF300-EVAL-KIT](https://github.com/MiV-Libero-Designs/MPF300_EVAL_KIT/tree/Libero-v12.1)
 This is Microsemi's PolarFire FPGA Evaluation Kit. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/150789). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/mpf300.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/mpf300.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
@@ -78,7 +68,7 @@ This is Microsemi's PolarFire FPGA Evaluation Kit. Information like data sheets,
 ----------------------------------------------
 ### [RTG4_DEV_KIT](https://github.com/MiV-Libero-Designs/RTG4_DEV_KIT)
 This is a Radiation-Tolerant High-Density High-Performance Development Board with one RT4G150 FPGA. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/product-directory/dev-kits-solutions/3865-rtg4-kits#overview). Below is an image of the board 
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/rtg4.png" width="720" height="380" /></p>
+<p align="center"><img src="board_images/rtg4.png" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
@@ -87,7 +77,7 @@ This is a Radiation-Tolerant High-Density High-Performance Development Board wit
 -----------------------------------------------
 ### [M2S090TS_EVAL_KIT](https://github.com/MiV-Libero-Designs/M2S090TS_EVAL_KIT)
 This is a SmartFusion2 Security Evaluation Kit - SoC FPGA 90K LE. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/143988). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/m2s090ts.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/m2s090ts.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Contains Core SPI
@@ -98,7 +88,7 @@ This is a SmartFusion2 Security Evaluation Kit - SoC FPGA 90K LE. Information li
 ------------------------------------------------
 ### [EVMPF300_DEV_KIT_ES](https://github.com/MiV-Libero-Designs/EVMPF300_DEV_KIT_ES)
 This is an Arrow Everest Evaluation Board for PolarFire FPGA. Information like data sheets, guides and support for this board can befound by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/143998). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/evmpf300.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/evmpf300.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
