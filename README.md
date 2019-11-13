@@ -4,7 +4,7 @@ This repository contains a list of sample board designs for Libero. The sample d
 - Check this repository for updates on regular basis.
 - Ensure you always have the latest Cores downloaded in Libero.
 - Develop branch contains latest updates, master branch contains releases.
-- If you have any queries be sure to jest the **[F.A.Q's](https://github.com/MiV-Libero-Designs/Sample-Board-Solutions/tree/master/FAQ)** page in the repository
+- If you have any queries be sure to jest the **[F.A.Q's](Hardware-Platforms/FAQ)** page in the repository
 
 ## Instructions
 1. Select one of the sample board designs from the list below by clicking on it's name.
@@ -12,7 +12,7 @@ This repository contains a list of sample board designs for Libero. The sample d
 3. Follow the instructions on the project's page to implement the design, ensure your version of Libero matches the version for which the scripts are written.
 
 ------------------------------------------
-### [AVMPF300TS_01](https://github.com/MiV-Libero-Designs/AVMPF300TS_01)
+### [Future-Avalanche-Board](./AVMPF300TS_01)
 This is the Future Avalanche Board for PolarFire FPGA - AVMPF300TS_01. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/139680). A Libero Gold license is required to use the PolarFire part.
 <p align="center"><img src="board_images/avmpf300.PNG" width="720" height="380" /></p>
 
