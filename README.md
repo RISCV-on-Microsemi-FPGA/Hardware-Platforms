@@ -1,10 +1,10 @@
-# Hardware Platforms for Libero v12.1
-Thiis repository contains sample board designs for Libero v12.1 and support that version of Libero only. The designs can be built with either AXI or AHB buses. These are not fully built projects but, .tcl scripts that need to be executed in Libero to build and implement a project. If you are interested only in the programming files for your device, then download the programming file contained within the selected project's repository and use fpexpress to implement it on your device.
+# Hardware Platforms
+This repository contains a list of sample board designs for Libero. The sample designs contain Libero projects for FPGA designs including a RISC-V soft processor with programming bitstreams that can be used to program hardware using FlashPro Express. Select the hardware platform and follow instructions on it's page to implement it.
 ##### Notes
 - Check this repository for updates on regular basis.
 - Ensure you always have the latest Cores downloaded in Libero.
-- Master branch contains latest updates not full releases, scripts are not guaranteed to work.
-- If you have any queries be sure to jest the [F.A.Q's](https://github.com/MiV-Libero-Designs/Sample-Board-Solutions/tree/master/FAQ) page in the repository
+- Develop branch contains latest updates, master branch contains releases.
+- If you have any queries be sure to jest the **[F.A.Q's](https://github.com/MiV-Libero-Designs/Sample-Board-Solutions/tree/master/FAQ)** page in the repository
 
 ## Instructions
 1. Select one of the sample board designs from the list below by clicking on it's name.
