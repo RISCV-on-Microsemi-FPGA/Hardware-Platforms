@@ -36,7 +36,7 @@ This is a Future designed IGLOO2 RISC-V Creative Development Board for IGLOO2 FP
 ----------------------------------------------
 ### [SmartFusion2-Advanced-Dev-Kit](https://github.com/RISCV-on-Microsemi-FPGA/SmartFusion2-Advanced-Dev-Kit)
 This board is a SmartFusion2 Advanced Development Kit - SoC FPGA 150K LE - M2S150TS_ADV_DEV_KIT. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/143709). Below is an image of the board.
-<p align="center"><img src="board_images/m2s150ts.jpg" width="720" height="380" /></p>
+<p align="center"><img src="board_images/m2s150ts.JPG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
