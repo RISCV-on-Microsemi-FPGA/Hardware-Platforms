@@ -14,7 +14,7 @@ Thiis repository contains sample board designs for Libero v12.1 and support that
 ------------------------------------------
 ### [AVMPF300TS_01](https://github.com/MiV-Libero-Designs/AVMPF300TS_01)
 This is the Future Avalanche Board for PolarFire FPGA - AVMPF300TS_01. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/139680). A Libero Gold license is required to use the PolarFire part.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/avmpf300.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/avmpf300.PNG" width="720" height="380" /></p>
 
 - The operational clock frequency of the design is 50 MHz
 - Latest cores have been implemented
@@ -24,7 +24,7 @@ This is the Future Avalanche Board for PolarFire FPGA - AVMPF300TS_01. Informati
 ---------------------------------------------
 ### [FUTUREM2GL_EVB](https://github.com/MiV-Libero-Designs/FUTUREM2GL_EVB)
 This is a Future designed IGLOO2 RISC-V Creative Development Board for IGLOO2 FPGA - FUTUREM2GL_EVB. Information like data sheets, guides and support for this board can be found by clicking here, [Microsemi's website](https://www.microsemi.com/existing-parts/parts/143948). Below is an image of the board.
-<p align="center"><img src="https://github.com/MiV-Libero-Designs/Hardware-Platforms/blob/Libero-v12.1/board_images/futurem2gl.PNG" width="720" height="380" /></p>
+<p align="center"><img src="board_images/futurem2gl.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
