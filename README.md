@@ -4,7 +4,7 @@ This repository contains a list of sample board designs for Libero. The sample d
 - Check this repository for updates on regular basis.
 - Ensure you always have the latest Cores downloaded in Libero.
 - Develop branch contains latest updates, master branch contains releases.
-- If you have any queries be sure to jest the **[F.A.Q's](Hardware-Platforms/FAQ)** page in the repository
+- If you have any queries be sure to check the **[F.A.Q's](Hardware-Platforms/FAQ)** page in the repository
 
 ## Instructions
 1. Select one of the sample board designs from the list below by clicking on it's name.
