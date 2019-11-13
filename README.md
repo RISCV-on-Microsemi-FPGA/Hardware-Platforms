@@ -4,7 +4,7 @@ This repository contains a list of sample board designs for Libero. The sample d
 - Check this repository for updates on regular basis.
 - Ensure you always have the latest Cores downloaded in Libero.
 - Develop branch contains latest updates, master branch contains releases.
-- If you have any queries be sure to jest the **[F.A.Q's](Hardware-Platforms/FAQ/)** page in the repository
+- If you have any queries be sure to jest the **[F.A.Q's](Hardware-Platforms/FAQ)** page in the repository
 
 ## Instructions
 1. Select one of the sample board designs from the list below by clicking on it's name.
@@ -18,7 +18,7 @@ This is the Future Avalanche Board for PolarFire FPGA - AVMPF300TS_01. Informati
 
 - The operational clock frequency of the design is 50 MHz
 - Latest cores have been implemented
-- Part: MPF300TS-FCG484EES
+- LSRAM
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -30,7 +30,6 @@ This is a Future designed IGLOO2 RISC-V Creative Development Board for IGLOO2 FP
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
 - This board can come in colors: red, yellow or blue
-- Part: M2GLO25
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -42,8 +41,8 @@ This board is a SmartFusion2 Advanced Development Kit - SoC FPGA 150K LE - M2S15
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
 - Contains Core SPI
-- Design uses the MSS Subsystem
-- Part: M2S150TS-1FC1152I or M2S150-1FC1152I
+- DDR and ENVM
+- FPGA: M2S150 or M2S150TS
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -54,8 +53,8 @@ This is Microsemi's PolarFire Splash Kit board for evaluation and development. I
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
+- LSRAM
 - This is project is marked 'ES' for Engineering Sample
-- Part used: MPF300TS-1FCG484EES
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -66,7 +65,8 @@ This is Microsemi's PolarFire FPGA Evaluation Kit. Information like data sheets,
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- Part used: MPF300T-1FCG1152I or MPF300T_ES-1FCG1152I
+- LSRAM
+- FPGA: MPF300T or MPF300T_ES
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -77,7 +77,7 @@ This is a Radiation-Tolerant High-Density High-Performance Development Board wit
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- DDR3
+- DDR Memory
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page.
 
@@ -89,7 +89,8 @@ This is a SmartFusion2 Security Evaluation Kit - SoC FPGA 90K LE. Information li
 - The frequency of the design is 50 MHz
 - Contains Core SPI
 - Latest cores have been implemented
-- The design uses the MSS Subsystem
+- DDR and ENVM
+- FPGA: M2S090 or M2S090TS
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
 - Timing seed included, more information on the design's page. 
 
