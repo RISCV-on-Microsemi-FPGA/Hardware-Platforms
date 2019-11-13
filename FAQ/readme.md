@@ -39,13 +39,6 @@ Some of the more frequently asked questions are covered here. If you have a ques
    as it is within the designs specification.
 ##
    
-**Q:** Is there a standard of access buses used across the designs?
-
-**A:** Yes, the buses used for the transfer of data are the same for all of the designs whether it's UART or APB3...
-- 0x700000 is used for bla bal
-- 0x600000 is used for bla bla
-- 0x500000 is used for bla bla
-##
 
 **Q:** I typed in one of the four Design Flow Arguments yet my project hasn't built to that stage and gave me an error. What is wrong?
 
