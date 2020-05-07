@@ -1,6 +1,5 @@
 # Frequently Asked Questions about Sample Board Solutions for Libero
-Some of the more frequently asked questions are covered here. If you have a question that haven't been answered you can always contact the support by raising a ticket through the ticket systetm on GitHub
-(There is also a way to implement raising an issue through the enterprise portal if the GitHub repo is an enterprise one, something to look into)
+Some of the more frequently asked questions are covered here. If you have a question that haven't been answered you can always contact the support by raising a ticket through the ticket systetm on GitHub.
 
 ## F.A.Q's
 
@@ -22,13 +21,12 @@ Some of the more frequently asked questions are covered here. If you have a ques
    Some of the files in the folder include:
 	- Lower level tcl scripts that focus on importing constraints and building the canvas
 	- Timing constraints and pin assignments.
-	- The IP of the MSS Subsystem for projects that support it.
-	- If the design supports the eNVM feature then hex files are provided to run once FPGA is programmed.
+	- HDL components that are imported into the design.
 ##
 	
-**Q:** Do the designs include all of the features made available by the type of Die and board used?
+**Q:** Do the designs include all of the features made available by the board used?
 
-**A:** In short answer, yes. In long answer: these are sample board design projects and are basic in nature. They serve the purpose of getting the
+**A:** No, these are sample board design projects and are basic in nature. They serve the purpose of getting the
    user started on building their own design and leaving them to implement whichever features they require. Links to Microsemi's websites have been provided. Where users can learn all of the features and limitations of each board solution and then modify their designs.
 ##
 
@@ -59,3 +57,12 @@ is provided on the design's page.
 **A:** FlashPro does not support the .job programming file. It can only be programmed using the **FlashPro Express** a.k.a FPExpress. You may need to download FPExpress from the links
 found on the design's page if it's not already found on your drive.
 ##
+
+**Q:** My Libero has crashed or turned off while I was executing a script. What should I do?
+
+**A:** If Libero crashes while executing the script then go into the script's folder and delete the project folder that was partially built. Then re-run the script again. Deleting the previously partially built folder ensures the next build will be clean.
+
+**Q:** I got an error while executing a script on Synthesis that refers to the SRAM_0 or PF_SRAM_ component being not found. What should I do?
+	
+**A:**  Check if your file path is long enough for the project. This particular component uses long paths to be unpacked onto the design. If file path is sufficient then, exit Libero, delete the created project folder, run the script again.
+

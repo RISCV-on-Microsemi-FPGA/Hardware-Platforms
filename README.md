@@ -4,7 +4,7 @@ This repository contains a list of sample board designs for Libero. The sample d
 - Check this repository for updates on regular basis.
 - Ensure you always have the latest Cores downloaded in Libero.
 - Develop branch contains latest updates, master branch contains releases.
-- If you have any queries be sure to check the **[F.A.Q's](Hardware-Platforms/FAQ)** page in the repository
+- If you have any queries be sure to check the **[F.A.Q's](https://github.com/RISCV-on-Microsemi-FPGA/Hardware-Platforms/tree/develop/FAQ)** page in the repository
 
 ## Instructions
 1. Select one of the sample board designs from the list below by clicking on it's name.
@@ -18,9 +18,8 @@ This is the Future Avalanche Board for PolarFire FPGA - AVMPF300TS_01. Informati
 
 - The operational clock frequency of the design is 50 MHz
 - Latest cores have been implemented
-- LSRAM
+- LSRAM for data and memory initialization
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 ---------------------------------------------
 ### [RISC-V-Creative-Board](https://github.com/RISCV-on-Microsemi-FPGA/RISC-V-Creative-Board)
@@ -29,9 +28,9 @@ This is a Future designed IGLOO2 RISC-V Creative Development Board for IGLOO2 FP
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
+- LSRAM for data and memory initialization
 - This board can come in colors: red, yellow or blue
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 ----------------------------------------------
 ### [SmartFusion2-Advanced-Dev-Kit](https://github.com/RISCV-on-Microsemi-FPGA/SmartFusion2-Advanced-Dev-Kit)
@@ -40,11 +39,9 @@ This board is a SmartFusion2 Advanced Development Kit - SoC FPGA 150K LE - M2S15
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- Contains Core SPI
-- DDR and ENVM
+- LSRAM for data and memory initialization
 - FPGA: M2S150 or M2S150TS
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 ----------------------------------------------
 ### [PolarFire-FPGA-Splash-Kit](https://github.com/RISCV-on-Microsemi-FPGA/PolarFire-FPGA-Splash-Kit)
@@ -53,10 +50,9 @@ This is Microsemi's PolarFire Splash Kit board for evaluation and development. I
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- LSRAM
+- LSRAM for data and memory initialization
 - This is project is marked 'ES' for Engineering Sample
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 ----------------------------------------------
 ### [PolarFire-Eval-Kit](https://github.com/RISCV-on-Microsemi-FPGA/PolarFire-Eval-Kit)
@@ -65,10 +61,9 @@ This is Microsemi's PolarFire FPGA Evaluation Kit. Information like data sheets,
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- LSRAM
+- LSRAM for data and memory initialization
 - FPGA: MPF300T or MPF300T_ES
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 ----------------------------------------------
 ### [RTG4-Development-Kit](https://github.com/RISCV-on-Microsemi-FPGA/RTG4-Development-Kit)
@@ -77,9 +72,8 @@ This is a Radiation-Tolerant High-Density High-Performance Development Board wit
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
-- DDR Memory
+- LSRAM for data and memory initialization
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 -----------------------------------------------
 ### [SmartFusion2-Eval-Kit](https://github.com/RISCV-on-Microsemi-FPGA/SmartFusion2-Eval-Kit)
@@ -87,12 +81,10 @@ This is a SmartFusion2 Security Evaluation Kit - SoC FPGA 90K LE. Information li
 <p align="center"><img src="board_images/m2s090ts.PNG" width="720" height="380" /></p>
 
 - The frequency of the design is 50 MHz
-- Contains Core SPI
 - Latest cores have been implemented
-- DDR and ENVM
+- LSRAM for data and memory initialization
 - FPGA: M2S090 or M2S090TS
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page. 
 
 ------------------------------------------------
 ### [Arrow-Everest-Board](https://github.com/RISCV-on-Microsemi-FPGA/Arrow-Everest-Board)
@@ -101,8 +93,8 @@ This is an Arrow Everest Evaluation Board for PolarFire FPGA. Information like d
 
 - The frequency of the design is 50 MHz
 - Latest cores have been implemented
+- LSRAM for data and memory initialization
 - This is project is marked 'ES' for Engineering Sample
 - Cores: MiV_RV32IMA_L1_AHB or MiV_RV32IMA_L1_AXI
-- Timing seed included, more information on the design's page.
 
 -------------------------------------------------
